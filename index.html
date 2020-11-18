@@ -1,69 +1,75 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <link rel="Favicon Icon" href="Imagens/favicon.ico" type="image/icon"/>
-    <title>SEMANA 02</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
+  
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="Favicon Icon" href="Imagens/favicon.ico" type="image/icon"/>
+  <title>HOME - IFSP - Pirituba</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
 
+<body>
 
-    <section class="MENU" align=right><br/>
+  <section class="MENU" id="Topo"> <!--seção do Menu -->
+    <table align=right>
       <tr>
-        <td><a href="">HOME |</a></td>
-        <td><a href="">CONTATO |</a></td>
-        <td><a href="">SOBRE</a></td>
+        <td><a href="index.html">HOME |</a></td>
+        <td><a href="contato.html">CONTATO |</a></td>
+        <td><a href="sobre.html">SOBRE</a></td>
       </tr>
-    </section>
+    <table/>
+  </section>
 
   <br/>
   <br/>
   <br/>
 
+  <section class="Logo"> <!--seção do Logo -->
+    <img src="Imagens/Logo.jpg" alt="Logo não Encontrado"/>
+  </section>
 
-    <section class="Logo">
-      <img src="Imagens/Logo.jpg" alt="Logo não Encontrado"/>
-    </section>
-    
-    <section class="Cursos"> <!-- separando a página em seções lógicas -->
-      <h4>Cursos</h4>
-      <ul> <!--lista comum - Marcadores de estrutura -->
-        <li><a href="">Análise e Desenvolvimento de Sistemas</a></li>
+  <section class="Cursos"> <!-- separando a página em seções lógicas -->
+    <h4>Cursos</h4>
+      <ul> <!--lista comum - Marcadores de estrutura - Não ordenada -->
+        <li><a href="ads.html">Análise e Desenvolvimento de Sistemas</a></li>
         <li><a href="">Engenharia de Produção</a></li>
         <li><a href="">Gestão em Tecnologia da Informação</a></li>
         <li><a href="">Letras</a></li>
         <li><a href="">Gestão Pública</a></li>
       </ul>
-    </section>
+  </section>
 
-    <section class="Eventos">
-      <h4>Eventos</h4>
-      <img src="Imagens/SEJA_RARO.jpg" alt="Evento não encontrado" width="900px" />
-      <p>Aniversário do IFSP - Pirituba - Palestra Augusto Aielo</p>
-    </section>
+  <section class="Eventos">
+    <h4>Eventos</h4>
+    <img src="Imagens/SEJA_RARO.jpg" alt="Evento não encontrado" width="900px" />
+    <p>Aniversário do IFSP - Pirituba - Palestra Augusto Aielo</p>
+  </section>
 
-    <section class="Biblioteca">
-      <h2>Sobre a Biblioteca</h2>
-      <img src="Imagens/library.jpeg" alt="Imagem não encontrada"/img>
-      <h2><strong>Conheça os novos títulos disponíveis na nossa biblioteca</strong></h2>
-      <h6><b>Publicado: Quarta-feira, 14 de agosto de 2019<b></h6>
-    </section>
+  <section class="Biblioteca">
+    <h2>Sobre a Biblioteca</h2>
+    <img src="Imagens/library.jpeg" alt="Imagem não encontrada"/img>
+    <h2><strong>Conheça os novos títulos disponíveis na nossa biblioteca</strong></h2>
+    <h6><b>Publicado: Quarta-feira, 14 de agosto de 2019<b></h6>
+  </section>
 
-    <section class="SUAP">
-      <h2>Conheça o SUAP</h2>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/yVbOcB1ryh0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </section>
+  <section class="SUAP">
+    <h2>Conheça o SUAP</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/yVbOcB1ryh0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </section>
 
   <br/>
   <br/> 
 
-    <section class="Icons">
-      <img width="40" src="Imagens/MoveTop.png" alt="Imagem não encontrada"/img>
-      <img width="40" src="Imagens/facebook.png" alt="Imagem não encontrada"/img>
-      <p>IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011) 2504-0100</p>
-    </section>
-    <script src="script.js"></script>
-  </body>
+  <section class="Icons">
+    <footer>
+      <a href="#Topo"><img width="40" src="Imagens/MoveTop.png" alt="Imagem não encontrada"/img></a>|
+      <a href="https://www.facebook.com/ifsppirituba"><img width="40" src="Imagens/facebook.png" alt="Imagem não encontrada"/img></a>
+      <br/>
+      <p>IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011) 2504-0100 </p>
+    </footer>
+  </section>
+
+  <script src="script.js"></script>
+</body>
 </html>
